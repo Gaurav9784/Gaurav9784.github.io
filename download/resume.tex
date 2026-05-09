@@ -1,0 +1,170 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Aditya Bansal                                %
+% B.tech CSE                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% -------------- Resume ---------------
+\documentclass{resume}
+
+\begin{document}
+
+% --------- Contact Information -----------
+\introduction[
+    fullname={Aditya Bansal},
+    email={adityabansal17121998@gmail.com},
+    phone={+91 8769930137},
+    linkedin={https://www.linkedin.com/in/aditya-bansal17},
+    github={github.com/Aadit17}
+]
+
+% --------- Summary -----------
+\summary{Experienced Full Stack MERN Developer with over 3 years of expertise in developing scalable applications using the MERN stack. Proven expertise in frontend development (ReactJS, JavaScript (ES6+), HTML5, CSS) and backend development (NodeJS, ExpressJS, dotNET Core, Microservices Architecture, RESTful APIs) to build scalable and efficient systems. Immediate joiner ready to contribute from day one. }
+
+% % --------- Education ---------
+% \begin{educationSection}{Education}
+%     \educationItem[
+%         university={Arizona State University, Tempe, AZ},
+%         college={Barrett, The Honors College},
+%         graduation={May 2020},
+%         grade={3.82 GPA},
+%         program={B.S.E., Mechanical Engineering},
+%         coursework={Hardware Design Languages and Programmable Logic, Advanced Excel in Business},
+%     ]
+% \end{educationSection}
+
+% --------- Skills -----------
+\begin{skillsSection}{Technical Skills}
+    \skillItem[
+        category={Frontend},
+        skills={ReactJS (Hooks, Context API, Component Lifecycle), JavaScript (ES6+), HTML5, CSS}
+    ] \\
+    \skillItem[
+        category={Backend},
+        skills={NodeJS, ExpressJS, dotNET Core, Microservices Architecture, RESTful APIs}
+    ] \\
+    \skillItem[
+        category={Databases},
+        skills={MongoDB, MySQL}
+    ]\\
+    \skillItem[
+        category={Tool and Tech},
+        skills={Git, Jira, Postman, Puppeteer, Jest, Visual Studio, AWS, CI/CD Pipelines, Heroku, Netlify}
+    ]\\
+    \skillItem[
+        category={Monitoring \& Logging},
+        skills={ELK Stack (Elasticsearch, Kibana), Morgan, Datadog}
+    ]
+    
+\end{skillsSection}
+
+% --------- Experience -----------
+\begin{experienceSection}{Experience}
+    \experienceItem[
+        company={Accolite Digital},
+        location={Gurgaon},
+        position={Senior Software Engineer (Client: OneIdentity, Onelogin - Dev)},
+        duration={October 2023 – June 2025}\\
+        {\textbf{Tech Stack:} Node.js, JavaScript (ES6+), ReactJS, SCIM APIs, Datadog, JSON Schema, Mongodb, Redis, Puppeteer, Jest}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+         \item Led the development of robust, production-ready \textbf{SCIM APIs} in Node.js, enabling seamless user provisioning from the Onelogin platform to third-party applications.
+        \item Configured \textbf{Datadog dashboards} and alerts to track provisioning services status, improving visibility and response time for service issues by 40\%.
+        % \item Increased API performance by \textbf{30\%} through optimisations, ensuring high availability and scalability under heavy traffic.
+        \item Designed and implemented an enhanced \textbf{JSON schema} to integrate new features into the existing product, ensuring seamless expansion of capabilities.
+
+        \item Achieved \textbf{100\% customer satisfaction} by resolving more than 100 customer service requests within the SLA, demonstrating strong problem solving and client relationship management.
+        \item Implemented comprehensive end-to-end testing with Puppeteer + Jest, achieving 95\% test coverage for critical workflows, including log-in, navigation and form submission
+
+    \end{itemize}
+
+    \experienceItem[
+        company={Accolite Digital},
+        location={Gurgaon},
+        position={Software Engineer (Client: OneIdentity, Onelogin - Dev)},
+        duration={Jan 2022 – Oct 2023}\\
+        {\textbf{Tech Stack:} JavaScript (ES6+), NodeJS, C#, .NET, WCF, SQL Server, Authentication APIs}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item Implemented automated authentication features in the Onelogin extension for both single and multi-page login forms, improving user experience and reducing login time by 60\%
+        \item Developed and configured custom connector templates, eliminating repetitive scripts and \textbf{reducing credential auto-fill issues by 80\%}
+        \item Prior to this, Worked on developing a highly reliable \textbf{WCF service} using C\# and dot NET, exposing SQL Server data to clients securely and efficiently. Ensured seamless communication between clients and servers, improving overall system performance
+        \item Strengthened application security by implementing \textbf{parameterized queries}, reducing SQL injection vulnerabilities
+        \textbf{by 80\%}
+    \end{itemize}
+
+\end{experienceSection}
+
+% --------- Projects -----------
+
+% New command for project item
+    \vspace{0.5em}
+    \begin{experienceSection}{Academic projects}
+
+    \projectItem[
+        title=Beyond Product: E-Commerce Platform,
+        keyHighlight={\textbf{Role}: Full-Stack Developer\\
+        \textbf{Tech Stack:} ReactJS, Node.js, Express.js, MongoDB, Stripe API, Morgan}
+        ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        % \item Designed and implemented \textbf{CRUD} functionality for managing products and categories in the admin section using \textbf{MERN} stack.
+        \item Built responsive React frontend with reusable components, implementing React Hooks for state management
+        \item Developed dynamic product catalog with \textbf{real-time filtering} and search using React state and props
+        \item Integrated React frontend with Node.js backend APIs for seamless data flow
+        \item Implemented \textbf{React Router for multi-page navigation and user authentication} flows
+        \item Created responsive UI components achieving \textbf{70\%} improvement in product management efficiency
+        \item  Utilized React Context API for global state management across admin and user interfaces
+    \end{itemize}
+
+    \end{experienceSection}
+
+% --------- Other work experience -----------
+% \begin{experienceSection}{Other work experience}
+%     \experienceItem[
+%         company={Arizona State University},
+%         location={Tempe, AZ},
+%         position={Tutor (10 hours/week)},
+%         duration={Aug 2018 – May 2019}
+%     ]
+%     \begin{itemize}
+%         \vspace{-0.2em}
+%         \itemsep -6pt {}
+%         \item Tutored 10-15 undergraduate engineering students per week in MATLAB programming and math coursework
+%     \end{itemize}
+
+%     \experienceItem[
+%         company={Kohl's},
+%         location={Gilbert, AZ},
+%         position={Sales Associate, Jewelry Department (16-24 hours/week)},
+%         duration={Aug 2017 – Dec 2017}
+%     ]
+%     \begin{itemize}
+%         \vspace{-0.2em}
+%         \itemsep -6pt {}
+%         \item Achieved \#2 highest selling associate within one month of hire date
+%     \end{itemize}
+% \end{experienceSection}
+
+% --------- Education -----------
+ \vspace{0.5em}
+\begin{experienceSection}{Education}
+    \projectItem[
+        title={B.Tech, Computer Science Engineering},
+        keyHighlight={Dayananda Sagar University, Bangalore, India},
+        duration={Aug 2018 - Jun 2022}
+    ]
+\end{experienceSection}
+
+% % --------- Education ---------
+% \begin{educationSection}{Education}
+%     \educationItem[
+%         university={Dayananda Sagar University, Bangalore, India},
+%         graduation={Aug 2018 - Jun 2022},
+%         program={B.Tech, Computer Science Engineering},
+%     ]
+% \end{educationSection}
+
+\end{document}
